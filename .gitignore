@@ -2,10 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.db
+*.db-journal
+__pycache__
 # C extensions
 *.so
-
+lib/bot/token.0
 # Distribution / packaging
 .Python
 build/
@@ -75,7 +77,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_heckcpoints
 
 # IPython
 profile_default/
